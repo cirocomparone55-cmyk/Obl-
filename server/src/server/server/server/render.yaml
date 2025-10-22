@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: oblogo-backend
+    env: docker
+    plan: free
+    branch: main
+    path: server
+  - type: postgres
+    name: oblogo-db
+    plan: free
